@@ -1,0 +1,53 @@
+:root {
+    --color-principal: #F18700;
+    --color-blanco: #FFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: transparent;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FF8C00;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 15px 25px;
+    position: relative;
+    border-bottom: 0.1em solid var(--color-blanco);
+}
+
+th {
+    width: 30%;
+    font-weight: bold;
+}
+
+td {
+    width: 70%;
+}
+
+/* Ajuste adicional para el padding general de la tabla */
+table {
+    padding: 15px;
+}
