@@ -36,18 +36,20 @@ td {
     padding: 15px 25px;
     position: relative;
     border-bottom: 0.1em solid var(--color-blanco);
+    text-transform: capitalize;
+    line-height: normal;
 }
 
 th {
     width: 30%;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 td {
     width: 70%;
+    font-weight: 500;
 }
 
-/* Ajuste adicional para el padding general de la tabla */
 table {
-    padding: 15px;
+    padding: 1em 2em 1em 2em;
 }
