@@ -31,9 +31,6 @@ table {
     overflow: hidden;
     padding: 1em 2em 1em 2em;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 1), -1px -1px 8px rgba(0, 0, 0, 1);
-}
-
-table {
     opacity: 0;
     animation: fadeIn 1s ease-in forwards;
 }
@@ -82,8 +79,14 @@ tr:hover {
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5), -1px -1px 8px rgba(0, 0, 0, 0.5);
 }
 
+
 @media only screen and (max-width: 768px) {
     table {
         width: 90%;
     }
+}
+
+tr:hover th,
+tr:hover td {
+    border-bottom: none;
 }
