@@ -90,3 +90,17 @@ tr:hover th,
 tr:hover td {
     border-bottom: none;
 }
+
+/* Definir anchos específicos */
+th:nth-child(1), td:nth-child(1) {
+    width: 15%;
+}
+th:nth-child(2), td:nth-child(2) {
+    width: 30%;
+}
+th:nth-child(3), td:nth-child(3) {
+    width: 30%;
+}
+th:nth-child(4), td:nth-child(4) {
+    width: 25%;
+}
